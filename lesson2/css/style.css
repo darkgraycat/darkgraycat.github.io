@@ -1,0 +1,43 @@
+li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+ul {
+	padding: 0px;
+}
+
+textarea {
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	width: 100%;
+}
+
+legend {
+	font-weight: bold;
+	background-color: #f88;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+body, html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 200;
+}
+
+input[type="button"] {
+	background-color: #444;
+	color: #fff;
+	width: 100%;
+}
+
+input[type="button"]:hover {
+	background-color: #888;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
