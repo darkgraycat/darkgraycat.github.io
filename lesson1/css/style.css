@@ -1,0 +1,29 @@
+html, body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 100;
+	background-color: #eeeeee;
+}
+.block {
+	display: block;
+	background-color:#dddddd;
+	color: #444444;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 24px;
+}
+.skill-block {
+	width: 100%;
+}
+.container {
+	display: flex;
+	   justify-content: center;
+}
+.image {
+	float: right;
+	border-radius: 100%;
+}
+a {
+	text-decoration: none;
+	color: #4488ff;
+	font-weight: bold;
+}
