@@ -25,13 +25,22 @@
 			<div>
 				<label for="comment" class="small-text">Пожелания к покупке?</label>
 				<textarea name="comment" id="comment" rows="4"></textarea>
-				<input type="button" value="Купить">
+				<input type="button" value="Купить" id="puchase">
 			</div>
 		</fieldset>
 
 
 
 	</form>
+
+	<script>
+		window.onload = () => {
+			const button = document.querySelector('#purchase')
+			button.onclick = () => {
+				alert('Заказ сделан!')
+			}
+		}
+	</script>
 
 </body>
 
