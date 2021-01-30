@@ -53,6 +53,7 @@ input[type="button"]:active {
 
 .small-text {
 	font-size: smaller;
+	font-style: italic;
 }
 
 a {
