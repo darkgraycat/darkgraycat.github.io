@@ -34,11 +34,8 @@
 	</form>
 
 	<script>
-		window.onload = () => {
-			const button = document.querySelector('#purchase')
-			button.onclick = () => {
-				alert('Заказ сделан!')
-			}
+		window.onload = e => {
+			document.querySelector('#purchase').onclick = e => { alert('Заказ сделан!') }
 		}
 	</script>
 
