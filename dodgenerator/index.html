@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="generate_comment.js"></script>
+</head>
+
+<body>
+  <div id="root" class="row">
+
+    <div id="comment_gen" class="row col-12">
+      <div class="col-6">
+        <p>Input</p>
+        <textarea class="tfield" id="comment_in"></textarea>
+      </div>
+      <div class="col-6">
+        <p>Output</p>
+        <textarea readonly class="tfield" id="comment_out"></textarea>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    const comment_in = document.querySelector('#comment_in');
+    const comment_out = document.querySelector('#comment_out');
+
+    comment_in.addEventListener('keyup', () => {
+      console.log('D');
+      const generated = generate(comment_in.value);
+      comment_out.value = generated;
+    });
+  </script>
+</body>
+
+</html>
